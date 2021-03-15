@@ -1,2 +1,4 @@
 Gitlab ci image with ssh, curl, postgresql-client, golang, geoipupdate, sup, golangci-lint
 golang version 1.15
+
+[docker hub andmetoo/gitlab-ci-base-with-golang-tools](https://hub.docker.com/repository/docker/andmetoo/gitlab-ci-base-with-golang-tools)
