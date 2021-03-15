@@ -5,4 +5,4 @@ RUN apt update -y && apt install openssh-client git \
 
 RUN go get -u github.com/maxmind/geoipupdate/cmd/geoipupdate \
     go get -u github.com/pressly/sup/cmd/sup \
-    go get -u github.com/golangci/golangci-lint/cmd/golangci-lint@v1.38.0 \
+    go get -u github.com/golangci/golangci-lint/cmd/golangci-lint@v1.38.0

@@ -1,1 +1,2 @@
 Gitlab ci image with ssh, curl, postgresql-client, golang, geoipupdate, sup, golangci-lint
+golang version 1.15
