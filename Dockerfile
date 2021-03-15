@@ -5,4 +5,6 @@ RUN apt update -y && apt install openssh-client git \
 
 RUN go get -u github.com/maxmind/geoipupdate/cmd/geoipupdate
 RUN go get -u github.com/pressly/sup/cmd/sup
-RUN go get -u github.com/golangci/golangci-lint/cmd/golangci-lint@v1.38.0
+
+RUN curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b $(go env GOPATH)/bin v1.38.0
+
